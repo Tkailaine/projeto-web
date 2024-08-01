@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html, body{
+  scroll-behavior: smooth;
+}
 
 .desktop{
   display: flex;
