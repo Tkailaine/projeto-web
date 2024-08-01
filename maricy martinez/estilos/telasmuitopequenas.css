@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.bandeira{
+    background-position: center;
+}
+
+
+.bandeira > h1{
+  width: 90%;
+  font-size: 1.15em}
+
+
+.logo > a > img{
+    width: 80px;
+}
+
+.imenu span {
+display: block;
+width: 20px;
+height: 2px;
+margin-bottom: 5px;
+
+}
+
+.btn-contato{
+font-size: 0.7em;
+width: 100px;
+}
+
+.advogada{
+    height: 250px;
+    width: 100%;
+}
+
+.sobre> .txt> h1{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+
+.sobre> .txt> p{
+    width: 90%;
+    line-height: 1.5em;
+    font-size: 0.7em;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+h1{
+  font-size: 1.5em;
+}
+
+
+
+.titulo-acidentes{
+  font-size: 1.3em;
+ 
+}
+
+.texto-acidentes{
+  font-size: 0.9em;
+}
+
+.acidentes, .saude{
+  gap: 30px;
+  margin-top: 10px;
+}
+
+#valores {
+  background-image: url(../imagens/texturap.jpg);
+  
+}
+
+
+.txt-missao{
+    margin-top: 10px;
+    width: 80%;
+    margin: auto; 
+}
+

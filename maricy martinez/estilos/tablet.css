@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.sobre > p.slideInRight {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.advogada{
+
+    background-image: url(../imagens/advogada.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.acidentes{
+flex-direction: row;
+}
+
+.conteudo-acidentes > img{
+margin-top: 50px;
+width: 100%;
+border-radius: 0px;
+}
+
+.oculto{
+display: inline;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+.visivel{
+display: none;
+}
+
+.saude{
+flex-direction: row;
+}
+
+.areas-atuacao{
+flex-direction: row;
+}
+
+.tipo-area > ul{
+  width: 65%
+}
+
+.conteudo-curriculo{
+justify-content: space-around;
+align-items: center;
+}
+
+.ft-curriculo{
+width: 310px;
+box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+.txt-curriculo{
+width: 50%;
+margin-top: 20px;
+font-size: 1.2em;
+}
+
+
+.txt-missao{
+    width: 95%;
+    text-align: center;
+}
+.sessao4{
+    height: 200px;
+}
+
+.countainer-principal-counter{
+    display: flex;
+    justify-content: center;
+}
+
+.links-uteis > li{
+  font-size: 1.2em;
+  margin: 20px 0px;
+}
+
+
+
+
+
+
