@@ -143,34 +143,48 @@ const role = document.querySelector('.role')
 
 const testimonials = [
   {
-    name: 'Rafael Souza',
-    position: 'Fotógrafo',
+    name: 'Alexandre Carvalho',
+    position: '',
     photo:
-      'imagens/homem4.jpg',
+      '',
     text:
-    "Arielly Araújo me ajudou a resolver uma disputa trabalhista complicada. Sua competência e dedicação foram excepcionais. Altamente recomendada!",
+    "Pelo presente mensagem, venho agradecer a um exemplo de advogada, Dra Maricy, pelos serviços prestados com dedicação, desempenho e honestidade, caráter e profissionalismo de um gabarito enorme.Parabéns, Dra. E muito obrigada por tudo.",
   },
  
   {
-    name: 'Gabriel Oliveira',
-    position: 'Empreendedor',
-    photo: 'imagens/homem2.jpg',
+    name: 'Elizabete Areias',
+    position: '',
+    photo: '',
     text:
-    "Precisei de assistência jurídica em uma questão de direito imobiliário e a Dra. Arielly foi brilhante. Sua atenção aos detalhes e conhecimento profundo fizeram toda a diferença.",
+    "Eu indiquei a Dra. Maricy para outras pessoas e amigos, minha advogada é muito boa com seus compromissos e muito dedicada no que faz.",
   },
   {
-    name: 'Larissa Almeida',
-    position: 'Enfermeira',
-    photo: 'imagens/mulher2.jpg',
+    name: 'André Silva',
+    position: '',
+    photo: '',
     text:
-    "Arielly Araújo me orientou em um processo de herança. Sua paciência e clareza na explicação dos passos legais me deram muita confiança. Recomendo seus serviços!",
+    "Minha advogada, Dra. Maricy executou um ótimo trabalho para mim. Eu a indico para meus amigos e conhecidos. Obrigada pelo seu ótimo trabalho e eficiência.",
   },
   {
-    name: 'Leonardo Garcia',
-    position: 'Empresário',
-    photo: 'imagens/homem3.jpg',
+    name: 'Genival Nery',
+    position: '',
+    photo: '',
     text:
-    "Contratei a Dra. Arielly para um caso empresarial complexo. Ela demonstrou grande expertise e eficiência, alcançando um resultado positivo para minha empresa. Excelente profissional!",
+    "Seu conhecimento jurídico é impressionante! É incrível como você consegue aplicar as leis de forma clara e precisa para obter resultados positivos. Sua habilidade em argumentar é admirável! Além de ser uma advogada talentosa, você é extremamente ética.",
+  },
+  {
+    name: 'Marcelo Campos',
+    position: '',
+    photo: '',
+    text:
+    "Contratar a Dra. Maricy foi uma das melhores decisões que tomei para o meu caso trabalhista. Desde o primeiro contato, fui extremamente bem atendido, com uma comunicação clara e direta, o que me trouxe muita tranquilidade durante todo o processo. A atuação dela foi impecável, demonstrando profundo conhecimento das leis trabalhistas e uma dedicação exemplar. O resultado alcançado foi além das minhas expectativas, e eu não poderia estar mais satisfeito com o trabalho realizado. Recomendo a Dra. Maricy a todos que buscam uma Advogada profissional, competente e comprometida.",
+  },
+  {
+    name: 'Fábio Guedes',
+    position: '',
+    photo: '',
+    text:
+    "Dr. Maricy gostaria de agradecer pelo excelente trabalho, todos os processos que eu e minha família colocamos em suas mãos foram concretizados com sucesso! Obrigado pelo profissionalismo.",
   }
 ]
 

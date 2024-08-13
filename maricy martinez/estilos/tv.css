@@ -111,10 +111,13 @@ margin-right: 5%;
 
 .areas-atuacao{
   flex-direction: row;
-  width: 1000px;
+  width: 1250px;
   margin: 70px auto;
+  gap: 70px;
     
   }
+
+
 
 .conteudo-curriculo{
   justify-content: space-around;

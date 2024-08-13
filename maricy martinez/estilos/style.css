@@ -428,8 +428,8 @@ main{
   gap: 10px;
   color: white;
   background-color: #800000;
-  width: 250px;
-  height: 300px;
+  width: 270px;
+  height: 350px;
   border-radius: 15px;
   margin: auto;
 
@@ -442,6 +442,7 @@ main{
 
 .tipo-acidente > h1{
   font-family: var(--fonte-padrao);
+ width: 95%;
 }
 
 .tipo-acidente > p{
@@ -464,8 +465,8 @@ main{
   color: var(--cor1);
   font-weight: 500;
   background-image: linear-gradient(45deg,#d4d3d3, #f3f3f3);
-  width: 250px;
-  height: 300px;
+  width: 270px;
+  height: 350px;
   border-radius: 15px;
   margin: auto;
 
@@ -478,6 +479,8 @@ main{
 
 .tipo-saude > h1{
   font-family: var(--fonte-padrao);
+  width: 95%;
+
 }
 
 .tipo-saude > p{
@@ -508,9 +511,10 @@ main{
  .areas-atuacao{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   gap: 30px;
   margin-top: 70px;
+ 
   
 }
 
@@ -518,11 +522,16 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   color: white;
   width: 250px;
   margin: auto;
+}
 
+
+
+.tipo-area h2{
+  font-size: 1em;
 }
 
 .tipo-area > img{
@@ -535,7 +544,7 @@ main{
 }
 
 .tipo-area > ul{
-  width: 85%
+  width: 90%
 }
 
 
@@ -680,14 +689,11 @@ color: var(--cor3);
   }
   
   .user .user-image {
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    object-fit: cover;
+    display: none;
   }
   
   .user .user-details {
-    margin-left: 10px;
+    text-align: center;
   }
   
   .user .username {
@@ -697,6 +703,7 @@ color: var(--cor3);
   .user .role {
     font-weight: normal;
     margin: 10px 0;
+    display: none;
   }
   
   .progress-bar {
@@ -844,4 +851,12 @@ h3{
     height: 1px;
     background-color: #000000;
     margin: 10px auto;
+}
+
+@media (min-width: 767px){
+  .tipo-area{
+    margin: 0px;
+  
+  }
+  
 }
