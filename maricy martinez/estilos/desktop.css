@@ -93,9 +93,7 @@ header > nav > .itens{
 
 .texto-acidentes{
   margin: 0px 100px;
-
 }
-
 
 .texto-deslizante {
   font-size: 1.2em;
@@ -106,18 +104,13 @@ header > nav > .itens{
 flex-direction: row;
 width: 1000px;
 margin: 70px auto;
-  
 }
 
 .areas-atuacao{
 flex-direction: row;
 width: 1000px;
 margin: 70px auto;
-
-  
 }
-
-
 
 .conteudo-curriculo{
 justify-content: space-around;
@@ -140,7 +133,7 @@ width: 95%;
 text-align: center;
 }
 
-.sessao4{
+.sessao-conquistas{
 height: 200px;
 }
 
@@ -149,10 +142,10 @@ display: flex;
 justify-content: center;
 }
 
-
 .footer{
   height: 300px;
 }
+
 .sessao-footer{
 
   justify-content: start;

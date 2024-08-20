@@ -20,6 +20,9 @@
  * SOFTWARE.
  */
 
+
+// ESSE ARQUIVO CONTÉM AS ANIMAÇÕES ADICIONADAS NO SITE
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Menu lateral
@@ -134,6 +137,16 @@ animateElements.forEach(element => {
 
 });
 
+//ATENÇÃO! AQUI SERÁ ADICIONADO NOVOS RELATOS, PARA ADICIONAR BASTA COLOCAR OS DADOS NA SEGUINTE ESTRUTURA:
+//   {
+//    name: 'Alexandre Carvalho',
+//    position: '',
+//    photo:
+//      '',
+//    text:
+//    "Pelo presente mensagem, venho agradecer a um exemplo de     advogada,Dra Maricy, pelos serviços prestados com dedicação,   desempenho e honestidade, caráter e profissionalismo de um gabarito enorme.Parabéns, Dra. E muito obrigada por tudo.",
+//  }, entre as chaves [] do const testimonials como está abaixo, basta copiar colar e alterar as informações.
+
 //relatos
 const testimonialsContainer = document.querySelector('.testimonials-container')
 const testimonial = document.querySelector('.testimonial')
@@ -185,6 +198,20 @@ const testimonials = [
     photo: '',
     text:
     "Dr. Maricy gostaria de agradecer pelo excelente trabalho, todos os processos que eu e minha família colocamos em suas mãos foram concretizados com sucesso! Obrigado pelo profissionalismo.",
+  },
+  {
+    name: 'Alan André',
+    position: '',
+    photo: '',
+    text:
+    "Eu conheci o trabalho da Dra. Maricy através de uma indicação, e foi uma das melhores indicações que tive. Dra. Muito profissional e conseguiu conduzir meu caso de uma forma justa e leve. Em todos os detalhes que precisei de auxílio, a Dra. Estava disposta a me ajudar e fazer com que me sentisse muito confortável em todo o meu processo.Super recomendo seu trabalho, profissionalismo, coerência e um primoroso atendimento. ",
+  },
+  {
+    name: 'Patrícia Linda Di Pietro',
+    position: '',
+    photo: '',
+    text:
+    "Sou cliente da Dra. Maricy desde 2022. Onde ela se prontificou a me ajudar rapidamente. Sempre muito solícita e cordial, me posicionando não só referente ao processo em curso, mas também em dúvidas aleatórias. Muito atenciosa e eficiente. Já indiquei e continuarei indicando para meus amigos. Pessoa ilibada e de extrema confiança. Agradeço pelo apoio e presteza de sempre.",
   }
 ]
 

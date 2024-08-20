@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 html, body{
   scroll-behavior: smooth;
 }
@@ -38,7 +37,6 @@ header > nav > .itens{
   align-items: center;
   height: 30px;
   gap: 35px;
-
 }
 
 .sobre{
@@ -52,12 +50,10 @@ margin-right: 5%;
 
 .sobre> .txt> p{
   width: 100%;
-
 }
 
 .texto-deslizante {
-  font-size: 1.3em;
-  
+  font-size: 1.3em; 
 }
 
 .advogada{
@@ -67,14 +63,12 @@ margin-right: 5%;
   background-repeat: no-repeat;
   width: 50%;
   height: 560px;
-
 }
 
 .acidentes{
   flex-direction: row;
   width: 1000px;
   margin: 70px auto;
-
 }
 
 .conteudo-acidentes{
@@ -105,8 +99,7 @@ margin-right: 5%;
 .saude{
   flex-direction: row;
   width: 1000px;
-  margin: 70px auto;
-    
+  margin: 70px auto;  
   }
 
 .areas-atuacao{
@@ -116,8 +109,6 @@ margin-right: 5%;
   gap: 70px;
     
   }
-
-
 
 .conteudo-curriculo{
   justify-content: space-around;
@@ -132,8 +123,8 @@ margin-right: 5%;
 .txt-curriculo{
   width: 50%;
   margin-top: 20px;
-  font-size: 1.2em;}
-    
+  font-size: 1.2em;
+}
       
  #valores{
   background-image: url(../imagens/texturag.jpg);
@@ -167,7 +158,7 @@ margin-top: 25px;
 margin-right: 60px;
 }
 
-.sessao4{
+.sessao-conquistas{
   height: 200px;
 }
 
@@ -175,7 +166,6 @@ margin-right: 60px;
   display: flex;
   justify-content: center;
 }
-
 
 .links-uteis > li{
   font-size: 1.4em;

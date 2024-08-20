@@ -1,20 +1,11 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
-
-
 
 
 :root{
     --fonte-padrao: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     --fonte-destaque: Cinzel, sans-serif;
-    --fonte-texto: Tenor Sans, sans-serif;
 
     --cor1: #800000;
     --cor2: #457b9d;
@@ -42,15 +33,14 @@ h1{
     text-align: center;
     font-family: var(--fonte-destaque);
 }
+
 body{
     font-family: var(--fonte-padrao);
     background-color: var(--cor3);
     color: black;
     text-align: justify;  
     width: 100vw;
-    height: 100vh;
-   
-    
+    height: 100vh;  
 }
 
 header{
@@ -58,7 +48,6 @@ header{
     font-family: var(--fonte-destaque);
     width: 100vw;
 }
-
 
 header> nav{
     display: flex;
@@ -68,12 +57,7 @@ header> nav{
     font-family: var(--fonte-padrao);
     font-weight: 400;
     font-size: 1em;
-   
-
 }
-
-
-
 
 .desktop{display: none;}
 
@@ -87,11 +71,8 @@ header> nav{
   width: 30px;
   height: 3px;
   background-color:  white;
-  margin-bottom: 5px;
-  
+  margin-bottom: 5px; 
   }
-
-
 
 .lateral a{
     font-size: 0.8em;
@@ -100,7 +81,6 @@ header> nav{
 }
 
 .lateral{
-
     list-style-type: none;
 }
 
@@ -133,12 +113,9 @@ header> nav{
     padding: 15px;
     font-family: var(--font-principal);
     font-size: 1.5em;
-    text-align: left;
-    
-    
+    text-align: left; 
   }
   
-
   .menu-lateral ul li a:hover {
     color: var(--cor2);
   }
@@ -152,126 +129,112 @@ header> nav{
     color: black;
   }
 
-
 .btn-contato{
-    text-align: center;
-    height: 40px;
-    width: 120px;
-    font-weight: 600;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-   cursor: pointer;
-   background-color: transparent;
-    
+  text-align: center;
+  height: 40px;
+  width: 120px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;   
 }
 
 .btn-contato:hover{
-    color: white;
-    background-color: var(--cor1);
-    transition-duration: 0.5s;
-    border: 1px solid var(--cor1);
-    
-}
-
+  color: white;
+  background-color: var(--cor1);
+  transition-duration: 0.5s;
+  border: 1px solid var(--cor1);
+}   
 
 .logo > a > img{
-    width: 150px;
+  width: 150px;
 }
 
 main{ 
-    background-color: #ffffff;
-    font-size: 1em;
-    color: var(--cor1);
-    font-family: var(--fonte-padrao);
-    overflow-x: hidden;
-   
-    
+  background-color: #ffffff;
+  font-size: 1em;
+  color: var(--cor1);
+  font-family: var(--fonte-padrao);
+  overflow-x: hidden;   
 }
 
 
 .sessao1{
   margin-bottom: 50px;
-    width: 100%;
+  width: 100%;
 }
 
 .bandeira{
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-image: url(../imagens/bandeira2efeito.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagens/bandeira.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bandeira > h1{
-    position: absolute;
-    font-family: var(--fonte-padrao);
-    color: white;
-    font-size: 1.4em;
-    top: 50%;
-    left: 50%;
-    width: 350px;
-    text-align: center;
-    transform: translate(-50%,-50%);
+  position: absolute;
+  font-family: var(--fonte-padrao);
+  color: white;
+  font-size: 1.4em;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  text-align: center;
+  transform: translate(-50%,-50%);
 }
 
-
-
-
-
 .btn-servicos{
-    position: absolute;
-    width: 110px;
-    height: 40px;
-    top: 50%;
-    left: 50%;
-    background-color: var(--cor1);
-    color: white;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.75em;
-    cursor: pointer;
-    transform: translate(-110%,-50%);
-    margin-top: 90px;
-  
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  background-color: var(--cor1);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.75em;
+  cursor: pointer;
+  transform: translate(-110%,-50%);
+  margin-top: 90px; 
 }
 
 .btn-servicos:hover{
-    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.589);
-    transition-duration: 0.5s;
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.589);
+  transition-duration: 0.5s;
 }
 
 .btn-contato2{
-    position: absolute;
-    text-align: center;
-    height: 40px;
-    width: 120px;
-    font-weight: 600;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 90px 0px 0px 70px;
-    cursor: pointer;
-        
+  position: absolute;
+  text-align: center;
+  height: 40px;
+  width: 120px;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 90px 0px 0px 70px;
+  cursor: pointer;  
     }
     
 
 .btn-contato2:hover{
-        color: white;
-        box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.589);
-        transition-duration: 0.5s;
-        
-    }
+  color: white;
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.589);
+  transition-duration: 0.5s;
+  }
 
 .sobre{
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -282,39 +245,34 @@ main{
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 50px;   
 }
 
 .txt{
-    display: flex;
-    flex-direction: column;
-    margin:auto 20px;
-    
+  display: flex;
+  flex-direction: column;
+  margin:auto 20px;
 }
 
 .sobre> .txt> p{
-    color: black;
-    width: 100%;
-    line-height: 1.8em;
-    margin: 10px auto;
-
+  color: black;
+  width: 100%;
+  line-height: 1.8em;
+  margin: 10px auto;
 }
 
 .sobre> .txt> h1{
-    margin-top: 25px;
-    text-align: center;
-    font-family: var(--fonte-padrao);
-    color: var(--cor1);
+  margin-top: 25px;
+  text-align: center;
+  font-family: var(--fonte-padrao);
+  color: var(--cor1);
 }
 
 .texto-deslizante {
     opacity: 0;
     animation: slideInFromRight 1s ease-in-out forwards;
-    animation-delay: 1s; /* Adicione um atraso para a animação iniciar após o carregamento */
-    animation-fill-mode: forwards; /* Mantenha o estado final da animação após a conclusão */
-    
+    animation-delay: 1s; 
+    animation-fill-mode: forwards;   
 }
 
 @keyframes slideInFromRight {
@@ -323,22 +281,17 @@ main{
     }
     to {
         transform: translateX(0);
-        opacity: 1; /* Adicione a propriedade opacity aqui para garantir que o texto fique visível */
+        opacity: 1;
     }
 }
 
-
-
 .advogada{
-
     background-image: url(../imagens/advogada.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     height: 350px;
-    width: 100%;
-    
-
+    width: 100%;  
 }
 
 .acidentes{
@@ -355,7 +308,6 @@ main{
   margin: 100px 50px 50px 50px;
 }  
 
-/* Define o estado inicial dos elementos com a classe 'animate' */
 .animate {
   opacity: 0;
   transform: translateY(30px);
@@ -363,7 +315,6 @@ main{
   will-change: opacity, transform;
 }
 
-/* Define a animação que será aplicada quando a classe .visible for adicionada */
 .animate.visible {
   opacity: 1;
   transform: translateY(0);
@@ -377,8 +328,6 @@ main{
 
 .conteudo-acidentes > img{
   width: 100%; 
-
- 
 }
 
 .txt-acidente{
@@ -386,15 +335,16 @@ main{
   flex-direction: column;
 }
 
-
 .oculto{
   display: inline;
   margin-top: 40px;
   margin-bottom: 0px;
 }
+
 .visivel{
   display: none;
 }
+
 .texto-acidentes{
   color: black;
   font-size: 1.3em;
@@ -405,7 +355,6 @@ main{
 
 .texto-acidentes strong{
   color: var(--cor1);
-
 }
 
 .btn-direitos{
@@ -417,8 +366,6 @@ main{
   height: 50px;
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.233);
-
-  
 }
 
 .tipo-acidente{
@@ -432,7 +379,6 @@ main{
   height: 350px;
   border-radius: 15px;
   margin: auto;
-
 }
 
 .tipo-acidente > img{
@@ -487,17 +433,13 @@ main{
   width: 85%;
 }
 
-
-
-
- .sessao2{
-    background-image: url(../imagens/bandeira3.jpg);    
-    width: 100%;
+ .sessao-areas-atuacao{
+  background-image: url(../imagens/bandeira3.jpg);    
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-    margin-top: 50px;
-   
+  margin-top: 50px;  
  }
 
  .titulo-atuacao{
@@ -506,7 +448,6 @@ main{
   font-size: 2em;
   padding-top: 50px;
  }
-
 
  .areas-atuacao{
   display: flex;
@@ -527,8 +468,6 @@ main{
   width: 250px;
   margin: auto;
 }
-
-
 
 .tipo-area h2{
   font-size: 1em;
@@ -564,154 +503,154 @@ color: var(--cor3);
 }
 
 #valores h2{
-    font-size: 1.2em;
-    font-weight: 500;
-    color: var(--cor3);
-    }
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--cor3);
+  }
 
 #valores p{
-    width: 80%;
-    margin: auto;
-    font-weight: 500;
-    }
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+  }
 
 .txtmissao{
-    width: 80%;
-    text-align: center;
-    margin: 10px auto 20px auto;
+  width: 80%;
+  text-align: center;
+  margin: 10px auto 20px auto;
 }
 .valor {
-    opacity: 0;
-    transform: translateY(150px);
-    transition: opacity 1.5s ease-out, transform 0.6s ease-out;
-    margin-bottom: 35px;
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 1.5s ease-out, transform 0.6s ease-out;
+  margin-bottom: 35px;
 }
 
 .valor.show {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.sessao4{
-    background-color: var(--cor3);
-    height: 400px;
-    color: white;
+.sessao-conquistas{
+  background-color: var(--cor3);
+  height: 400px;
+  color: white;
 }
 
 .counter-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 50px;
   }
   
   .counter {
-    font-size: 60px;
-    margin-top: 10px;
+  font-size: 60px;
+  margin-top: 10px;
   }
   
   @media (max-width: 580px) {
-    body {
-      flex-direction: column;
-    }
+  body {
+    flex-direction: column;
+  }
   }
 
   .curriculo{
-    width: 100%;
-    background-color: #363435;
+  width: 100%;
+  background-color: #363435;
   }
 
   .conteudo-curriculo{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
   }
 
   .ft-curriculo{
-    height: 700px;
-    width: 100%;
-    background-image: url(../imagens/maricy.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-
-  .txt-curriculo{
-    width: 70%;
-    margin-top: 20px;
-    font-size: 1em;
+  height: 700px;
+  width: 100%;
+  background-image: url(../imagens/maricy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
   }
 
+  .txt-curriculo{
+  width: 70%;
+  margin-top: 20px;
+  font-size: 1em;
+
+  }
+
   .txt-curriculo li{
-    margin: 30px 0px;
-   
+  margin: 30px 0px;
+  
   }
 
  
   .testimonial-container {
-    background-color: var(--cor1);
-    color: #fff;
-    border-radius: 15px;
-    margin: 20px auto 60px auto;
-    padding: 50px 80px;
-    max-width: 768px;
-    position: relative;
+  background-color: var(--cor1);
+  color: #fff;
+  border-radius: 15px;
+  margin: 20px auto 60px auto;
+  padding: 50px 80px;
+  max-width: 768px;
+  position: relative;
   }
   
   .fa-quote {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 28px;
-    position: absolute;
-    top: 70px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
   }
   
   .fa-quote-right {
-    left: 40px;
+  left: 40px;
   }
   
   .fa-quote-left {
-    right: 40px;
+  right: 40px;
   }
   
   .testimonial {
-    line-height: 28px;
-    text-align: justify;
+  line-height: 28px;
+  text-align: justify;
   }
   
   .user {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
   
   .user .user-image {
-    display: none;
+  display: none;
   }
   
   .user .user-details {
-    text-align: center;
+  text-align: center;
   }
   
   .user .username {
-    margin: 0;
+  margin: 0;
   }
   
   .user .role {
-    font-weight: normal;
-    margin: 10px 0;
-    display: none;
+  font-weight: normal;
+  margin: 10px 0;
+  display: none;
   }
   
   .progress-bar {
-    background-color: #ffffff;
-    height: 4px;
-    width: 100%;
-    animation: grow 10s linear infinite;
-    transform-origin: left;
+  background-color: #ffffff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
   }
   
   @keyframes grow {
@@ -729,53 +668,46 @@ color: var(--cor3);
       display: none;
     }
   }
-  
 
 footer{
-  
-    background-color: rgb(246, 246, 247);
-    padding: 40px 0px;
-  
-   
+  background-color: rgb(246, 246, 247);
+  padding: 40px 0px;
 }
+
 .sessao-footer{
-    display: flex;
-    margin-left: 5%;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 90%;
-    
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90%;
     
 }
 
 .sessao-footer  h3,li, p ,a {
-    margin-bottom: 10px;
- 
-   
+  margin-bottom: 10px;
 }
 
 .sessao-footer div{
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 footer ul, a{
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--cor4);
-    font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--cor4);
+  font-weight: 500;
 }
 .endereco{
-    font-size: 1em;
-    margin-left: 20px;
+  font-size: 1em;
+  margin-left: 20px;
 }
 
 h3{
-    color: var(--cor5);
+  color: var(--cor5);
 }
 
-
 .links-uteis > li > a:hover{
-    color: var(--cor1);
+  color: var(--cor1);
 }
 
 .nav-footer{
@@ -783,7 +715,6 @@ h3{
 }
 
 .form {
-  
   width: 300px;
   font-size: 1.125rem;
 }

@@ -6,13 +6,11 @@
 }
 
 .advogada{
-
     background-image: url(../imagens/advogada.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     height: 450px;
-
 }
 
 .acidentes{
@@ -68,7 +66,7 @@ font-size: 1.2em;
     width: 95%;
     text-align: center;
 }
-.sessao4{
+.sessao-conquistas{
     height: 200px;
 }
 
